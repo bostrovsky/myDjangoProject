@@ -1,0 +1,6 @@
+language_ python
+python:
+  - "3.7.1"
+
+script:
+  - python manage.py test && flake8
